@@ -14,7 +14,7 @@ public class PredicateInnerClass {
 		people.add(new Person("Doe", 32));
 		people.add(new Person("Mary", 42));
 		
-		//Predicate is a Java 8 feature
+		//Predicate is a Java 8 feature. These are used to filter collections
 		Predicate<Person> pred = new Predicate<Person>() {
 			
 			@Override
